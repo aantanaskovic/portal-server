@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Web;
 
 use App\Actions\Post\CreatePostAction;
 use App\Actions\Post\DeletePostAction;
 use App\Actions\Post\UpdatePostAction;
+use App\Http\Controllers\Controller;
 use App\Http\Requests\StorePostFormRequest;
 use App\Http\Requests\UpdatePostFormRequest;
 use App\Models\Post;
